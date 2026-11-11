@@ -18,4 +18,4 @@ Smoke del script `scripts/demo.mjs` contra la API en 127.0.0.1:4311: recepción 
 
 No se midieron cargas, disponibilidad, corte de energía, comportamiento multi-proceso ni integración con receptores externos. No hay código ni datos de clientes. Los resultados de test no se presentan como métricas laborales.
 
-El workflow `.github/workflows/ci.yml` instala desde lockfile y ejecuta `npm test` (incluye build). Su presencia no constituye evidencia de un run remoto exitoso: ese resultado debe comprobarse después de publicar.
+El workflow `.github/workflows/ci.yml` instala desde lockfile y ejecuta `npm test` (incluye build). La [ejecución inicial de CI en GitHub Actions](https://github.com/marianoAlvez/reliable-webhooks-lab/actions/runs/43073466956) terminó con resultado `success` para el commit `e82b65838a5379505166e45d1c7d3a9b0070edb8`, confirmado mediante la API pública de GitHub el 2026-11-11. Es evidencia de esa revisión concreta; los resultados de revisiones posteriores se consultan en [Actions](https://github.com/marianoAlvez/reliable-webhooks-lab/actions).
