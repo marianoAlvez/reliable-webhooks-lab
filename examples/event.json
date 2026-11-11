@@ -1,0 +1,6 @@
+{
+  "eventId": "demo-001",
+  "type": "demo.created",
+  "payload": { "reference": "synthetic-order-001", "message": "Dato sintético de demostración" },
+  "deliveryMode": "fail-once"
+}
